@@ -2,6 +2,7 @@ package stringsvc
 
 import (
 	"context"
+	"errors"
 	"strings"
 )
 
