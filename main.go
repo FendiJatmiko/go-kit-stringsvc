@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"github.com/FendiJatmiko/stringsvc"
+	"github.com/fendiJatmiko/stringsvc/stringsvc"
 	httptransport "github.com/go-kit/kit/transport/http"
 	"log"
 	"net/http"
