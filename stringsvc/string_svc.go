@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+var ErrEmpty = errors.New("empty string")
+
 // StringService provides operations on strings.
 type StringService interface {
 	Uppercase(context.Context, string) (string, error)
