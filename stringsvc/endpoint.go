@@ -1,4 +1,10 @@
-package stringsvc 
+package stringsvc
+
+import (
+	"context"
+
+	"github.com/go-kit/kit/endpoint"
+)
 
 // Endpoints are a primary abstraction in go-kit. An endpoint represents a single RPC (method in our service interface)
 func makeUppercaseEndpoint(svc StringService) endpoint.Endpoint {

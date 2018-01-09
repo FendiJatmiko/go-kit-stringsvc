@@ -1,8 +1,10 @@
 package stringsvc
 
-import ("context"
-
+import (
+	"context"
+	"strings"
 )
+
 // StringService provides operations on strings.
 type StringService interface {
 	Uppercase(context.Context, string) (string, error)

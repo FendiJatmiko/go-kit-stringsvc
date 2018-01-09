@@ -1,5 +1,10 @@
 package stringsvc
 
+import (
+	"context"
+	"encoding/json"
+	"net/http"
+)
 
 func decodeUppercaseRequest(_ context.Context, r *http.Request) (interface{}, error) {
 	var request uppercaseRequest

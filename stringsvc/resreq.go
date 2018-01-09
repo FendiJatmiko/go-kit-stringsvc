@@ -1,6 +1,5 @@
 package stringsvc
 
-
 // For each method, we define request and response structs
 type uppercaseRequest struct {
 	S string `json:"s"`
