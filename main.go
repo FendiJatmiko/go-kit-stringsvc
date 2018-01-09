@@ -2,10 +2,10 @@ package main
 
 import (
 	"errors"
+	"github.com/FendiJatmiko/stringsvc"
+	httptransport "github.com/go-kit/kit/transport/http"
 	"log"
 	"net/http"
-
-	httptransport "github.com/go-kit/kit/transport/http"
 )
 
 // ErrEmpty is returned when an input string is empty.
